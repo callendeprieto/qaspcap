@@ -17,11 +17,13 @@ Download qaspcap and its IDL dependencies. Unpack and make them visible to IDL.
 
 Download an appropriate model grid from the APOGEE repository. 
 
-Download and compile FERRE (additional notes are included at the bottom of the page).
+https://data.sdss.org/sas/dr12/apogee/spectro/redux/speclib/asset/kurucz_filled/solarisotopes/asGK_131216_lsfcombo5v6/p_apsasGK_131216_lsfcombo5v6_w123.dat
+
+Download and compile FERRE (additional notes are included at the bottom of the page) from github.com/callendeprieto/ferre
 
 Convert the ASPCAP grid to binary running ascii2bin (provided with FERRE). To to this simply call the executable (ascii2bin) and enter the name of the ASCII grid file when inquired by the program (e.g. p_apsasGK_131216_lsfcombo5v6_w123.dat), then answer unf when given the choice between formatted or unformatted (fmt/unf). The conversion takes about 20 minutes (it has to read the ascii file in to convert).
 
-Get the spectra you want to analyze into a subdirectory. The code will run on all fits files in a directory at once.
+Get the spectra you want to analyze into a subdirectory. The code will run on all fits files in a directory at once. See, e.g. https://data.sdss.org/sas/dr12/apogee/spectro/redux/r5/stars/apo25m/4124/
 
 **Atmospheric parameters**
 
