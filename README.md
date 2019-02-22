@@ -4,14 +4,14 @@ An IDL wrapper for using FERRE on APOGEE spectra
 
 qaspcap is a simple IDL script that substitutes the entire ASPCAP pipeline for quick-and-dirty work. It's easy to setup (you just need IDL, FERRE, and an ASPCAP spectral library) and runs both on apStar and apVisit files.
 
-Requirements
+**Requirements**
 
 - As much RAM as taken by the APOGEE model grid used. The usual PCA-compressed grids are a few GB (about 6 GB for the one in the example below). If you don't have it, you can still do it using the grid on disk, but at a slower speed (see the ​FERRE manual).
 - IDL (or GDL)
 
 - A FORTRAN95 or later compiler (gfortan 4.6 or later does just fine).
 
-Getting started
+**Getting started**
 
 Download qaspcap and its IDL dependencies. Unpack and make them visible to IDL.
 
